@@ -1,0 +1,30 @@
+body{
+
+    font-family: sans-serif;
+    background-color: #FFC4C4;
+}
+.color {
+    background-color: #FFF5E4;
+    background-color: #FFC4C4;
+    background-color: #EE6983;
+    background-color: #850E35;
+}
+table {
+    margin: 10em auto ;
+}
+table thead td{
+    background-color: #850E35;
+    border-radius: 10%;
+}
+table td {
+    border-radius: 10%;
+    background-color: #EE6983;
+    border: none;
+    color: #FFF5E4;
+    padding: 10px;
+}
+i {
+    padding: 10px;
+    font-size: 25px;
+    color: #850E35;
+}

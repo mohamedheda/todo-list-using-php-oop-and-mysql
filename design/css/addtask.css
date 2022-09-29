@@ -1,0 +1,18 @@
+.color {
+    background-color: #FFF5E4;
+    background-color: #FFC4C4;
+    background-color: #EE6983;
+    background-color: #850E35;
+}
+.divadd {
+    text-align: center;
+}
+.add {
+    text-decoration: none;
+    display: block;
+    color: #EE6983;
+    font-size: 25px;
+}
+.add:hover {
+    color: #850E35;
+}
