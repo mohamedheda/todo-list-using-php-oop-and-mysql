@@ -1,6 +1,5 @@
 <?php
 
-header("LOCATION:design/login.php");       
 
 session_start();
 
@@ -39,7 +38,7 @@ class User{
         $loginuser->addQuery("SELECT * FROM `user` WHERE id='$_SESSION[user_id]'" );
         $dataForCheck=$loginuser->displayOne();
         if($dataForCheck['left_tasks']==0){
-            header("LOCATION: design/addtoDB.php");
+            header("LOCATION: /todo-list-using-php-oop-and-mysql-main/design/addtoDB.php");
         }
     }
 
